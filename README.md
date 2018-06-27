@@ -55,7 +55,7 @@ Please run [`BER_MIMO.m`](BER_SISO.m). To truly reproduce Figure 7, the lines 31
 
 ## References
 - R. Nissel, M. Rupp, and R. Marsalek, [“FBMC-OQAM in Doubly-Selective Channels:
-A New Perspective on MMSE Equalization”](https://publik.tuwien.ac.at/files/publik_260162.pdf), IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), Sapporo, Japan, July 2017.
+A New Perspective on MMSE Equalization”](https://publik.tuwien.ac.at/files/publik_259771.pdf), IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), Sapporo, Japan, July 2017.
 - R. Nissel, S. Schwarz, and M. Rupp, [“Filter bank multicarrier modulation schemes for future mobile communications”](https://publik.tuwien.ac.at/files/publik_260162.pdf), IEEE Journal on Selected Areas in Communications, vol. 35, no. 8, pp. 1768–1782, 2017.
 - R. Nissel, [“Filter bank multicarrier modulation for future wireless systems”](http://publik.tuwien.ac.at/files/publik_265168.pdf), Dissertation, TU Wien, 2017.
 
