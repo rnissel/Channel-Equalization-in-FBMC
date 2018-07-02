@@ -5,15 +5,26 @@ This repository simulates an FBMC transmission over a doubly-selective channel a
 All figures from R. Nissel et al. [“FBMC-OQAM in Doubly-Selective Channels:
 A New Perspective on MMSE Equalization”](https://publik.tuwien.ac.at/files/publik_259771.pdf), IEEE SPAWC, 2017, can be reproduced. 
 
-For more information about FBMC, see [https://github.com/rnissel/FBMC](https://github.com/rnissel/FBMC). Note that my measurements indicate that one-tap equalizers are sufficient in many practical wireless communication scenarios, see my [PhD thesis](http://publik.tuwien.ac.at/files/publik_265168.pdf)  (perfectly time and frequency synchronized). Only in some rare cases, enhanced equalization methods, as presented here, might be useful.
+For more information about FBMC, see [https://github.com/rnissel/FBMC](https://github.com/rnissel/FBMC). Note that my measurements indicate that one-tap equalizers are often sufficient in mobile communications, see my [PhD thesis](http://publik.tuwien.ac.at/files/publik_265168.pdf)  (perfectly time and frequency synchronized). Only in some rare cases, enhanced equalization methods, as presented here, might be useful.
 
 
 ## Requirements
 We used Windows 7 (64bit) and Matlab R2013b/2016a, but newer versions (and some older) should also work.
 
+
+## Basic Properties of Our Equalizers
+
+Our n-tap MMSE equalizer additionally employs neighboring subcarriers so that it outperforms conventional methods:
+<img src="png/Figure5.png" width=500 >
+
+
+A simple interference cancellation scheme shows a good performance for practical relevant SNR ranges:
+<img src="png/Figure6.png" width=500">
+
+
 ## Reproducible Figures
-The figure numbers are the same as in  [“FBMC-OQAM in Doubly-Selective Channels:
-A New Perspective on MMSE Equalization”](https://publik.tuwien.ac.at/files/publik_259771.pdf):
+All figures from  [“FBMC-OQAM in Doubly-Selective Channels:
+A New Perspective on MMSE Equalization”](https://publik.tuwien.ac.at/files/publik_259771.pdf) can be reproduced. The figure numbers are the same as in the paper.
 
 * **Figure  1**: 
 Please run [`PlotInterferencePower2D.m`](PlotInterferencePower2D.m) after uncommenting line 26.
