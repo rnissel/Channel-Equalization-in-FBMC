@@ -19,7 +19,7 @@ Our n-tap MMSE equalizer additionally employs neighboring subcarriers so that it
 
 
 A simple interference cancellation scheme shows a good performance for practical relevant SNR ranges:
-<img src="png/Figure6.png" width=500">
+<img src="png/Figure6.png" width=500>
 
 
 ## Reproducible Figures
